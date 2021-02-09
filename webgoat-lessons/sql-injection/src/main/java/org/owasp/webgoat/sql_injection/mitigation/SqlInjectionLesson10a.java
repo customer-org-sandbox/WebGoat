@@ -49,6 +49,7 @@ public class SqlInjectionLesson10a extends AssignmentEndpoint {
                 completed = true;
             } else {
                 return failed(this).build();
+                //test
             }
             position++;
         }
